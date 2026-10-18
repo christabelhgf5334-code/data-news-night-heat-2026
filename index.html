@@ -1380,6 +1380,17 @@ body::before {
   animation: drawLine 1.2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
+.site-footer .public-link a {
+  color: var(--amber);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(242, 166, 90, 0.38);
+}
+
+.site-footer .public-link a:hover,
+.site-footer .public-link a:focus-visible {
+  border-bottom-color: var(--amber);
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(30px);
@@ -1734,6 +1745,7 @@ body::before {
 
   <footer class="site-footer">
     <p>数据新闻可视化课程作品 · 扶扬 / 传媒学院 · 23网络与新媒体 · 网络与新媒体</p>
+    <p class="public-link"><a href="https://christabelhgf5334-code.github.io/data-news-night-heat-2026/" target="_blank" rel="noreferrer">公开网址：christabelhgf5334-code.github.io/data-news-night-heat-2026/</a></p>
     <p>离线单文件版 · 数据更新至 2024 年 · 页面生成于 2026 年 10 月</p>
   </footer>
 

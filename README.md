@@ -30,4 +30,8 @@
 
 ## 发布
 
+公开网址：
+
+https://christabelhgf5334-code.github.io/data-news-night-heat-2026/
+
 本仓库使用 GitHub Pages 发布单文件离线网页，无需构建流程。
